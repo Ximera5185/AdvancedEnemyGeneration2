@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7749622178367199938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7740360387219369208}
+  - component: {fileID: 1996054273429759927}
+  m_Layer: 0
+  m_Name: PathForPlane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7740360387219369208
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7749622178367199938}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 72.6, y: 1, z: 18.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1996054273429759927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7749622178367199938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e5ac92bc18f545cc84cd886ece82b4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  editorData:
+    _bezierPath:
+      points:
+      - {x: -40.00001, y: 1.0000044, z: -25.000025}
+      - {x: 133.93073, y: 0.99986875, z: -24.999992}
+      - {x: 308.5175, y: 2.9117045, z: -24.93962}
+      - {x: 457.58902, y: 2.2926104, z: -25.000584}
+      - {x: 470.83896, y: 2.2375834, z: -25.006002}
+      - {x: 488.44907, y: 1.7918992, z: -24.92005}
+      - {x: 501.6708, y: 2.0050745, z: -24.912592}
+      - {x: 511.51657, y: 2.1638186, z: -24.907038}
+      - {x: 524.6951, y: 2.0296898, z: -24.991898}
+      - {x: 534.4336, y: 3.2525904, z: -24.970716}
+      - {x: 595.3178, y: 10.898082, z: -24.83829}
+      - {x: 669.2229, y: 40.950607, z: -24.923414}
+      - {x: 734.57446, y: 45.0006, z: -25.027006}
+      - {x: 812.3421, y: 49.820045, z: -25.15028}
+      - {x: 834.74817, y: 45, z: -4.930893}
+      - {x: 837.0256, y: 45, z: 36.39598}
+      - {x: 837.04877, y: 45, z: 36.816856}
+      - {x: 837.1178, y: 45, z: 67.64755}
+      - {x: 837.0524, y: 45, z: 72.95284}
+      - {x: 836.8718, y: 45, z: 87.611206}
+      - {x: 837.2211, y: 45, z: 101.20321}
+      - {x: 837.0276, y: 45, z: 124.61865}
+      - {x: 836.84045, y: 45, z: 147.25584}
+      - {x: 833.28796, y: 45, z: 162.56119}
+      - {x: 833, y: 45, z: 164.09843}
+      - {x: 828.99365, y: 45, z: 185.48445}
+      - {x: 802.3987, y: 45, z: 204.42941}
+      - {x: 761.56165, y: 45, z: 207.8841}
+      - {x: 659.00104, y: 45, z: 216.5604}
+      - {x: 587.0308, y: 45.00007, z: 220.26892}
+      - {x: 518.6638, y: 45, z: 226.01764}
+      - {x: 477.8029, y: 44.999958, z: 229.45348}
+      - {x: 431.61752, y: 45, z: 295.37628}
+      - {x: 517.5584, y: 45, z: 303.7979}
+      - {x: 641.19806, y: 45, z: 315.91376}
+      - {x: 678.4, y: 45, z: 312}
+      - {x: 828.886, y: 45.001995, z: 312.41403}
+      - {x: 892.8291, y: 45.002842, z: 312.58997}
+      - {x: 876.613, y: 51.310436, z: 348.17038}
+      - {x: 862.5888, y: 55.749893, z: 397.3433}
+      - {x: 827.02936, y: 67.00651, z: 522.02527}
+      - {x: 801.9274, y: 85.02306, z: 402.44775}
+      - {x: 746.9974, y: 84.99934, z: 402.5634}
+      - {x: 694.4622, y: 84.97665, z: 402.67398}
+      - {x: 686.16547, y: 87.26258, z: 423.871}
+      - {x: 689.37036, y: 88.67791, z: 455.77087}
+      - {x: 692.77356, y: 90.18079, z: 489.6442}
+      - {x: 709.08344, y: 90.663734, z: 534.77344}
+      - {x: 696.9657, y: 85.0012, z: 550.7457}
+      - {x: 683.3245, y: 78.62676, z: 568.7261}
+      - {x: 621.0188, y: 42.636757, z: 638.54553}
+      - {x: 592.7684, y: 45.09865, z: 587.84186}
+      - {x: 560.93384, y: 47.872883, z: 530.7055}
+      - {x: 556.44104, y: 36.012238, z: 437.19357}
+      - {x: 526.5041, y: 45.00017, z: 430.3632}
+      - {x: 499.8599, y: 52.999527, z: 424.2841}
+      - {x: 431.45648, y: 45.254936, z: 378.87985}
+      - {x: 410.96268, y: 44.99995, z: 337.5447}
+      - {x: 374.86118, y: 44.55077, z: 264.72946}
+      - {x: 493.2923, y: 47.098927, z: 197.3294}
+      - {x: 490.78366, y: 44.8836, z: 114.48339}
+      - {x: 487.6564, y: 42.12198, z: 11.207863}
+      - {x: 452.53378, y: 53.047, z: 49.380795}
+      - {x: 413.78302, y: 26.827564, z: 48.59771}
+      - {x: 373.2648, y: -0.58775806, z: 47.778908}
+      - {x: 364.55502, y: 2.433063, z: 25.000902}
+      - {x: 300.5832, y: 2.312555, z: 25.001081}
+      - {x: 139.61954, y: 2.0093372, z: 25.001534}
+      - {x: 133.92282, y: 1.0000095, z: 25.339487}
+      - {x: -40.000008, y: 1.0000029, z: 25.000038}
+      - {x: -69.324875, y: 1.0000018, z: 24.942804}
+      - {x: -65.00008, y: 1.000024, z: -25.000029}
+      isClosed: 1
+      space: 0
+      controlMode: 0
+      autoControlLength: 0.3
+      boundsUpToDate: 0
+      bounds:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+      perAnchorNormalsAngle:
+      - 90
+      - 90
+      - 90
+      - 90
+      - 90
+      - 155
+      - 155
+      - 100
+      - 100
+      - 180
+      - 65
+      - 65
+      - 180
+      - 190
+      - 44
+      - 31.3
+      - 151.1
+      - 108.2
+      - 75.47
+      - 180
+      - 68.3
+      - 79.64
+      - 90
+      - 90
+      globalNormalsAngle: 0
+      flipNormals: 0
+    vertexPathUpToDate: 0
+    vertexPathMaxAngleError: 0.3
+    vertexPathMinVertexSpacing: 0.01
+    showTransformTool: 1
+    showPathBounds: 0
+    showPerSegmentBounds: 0
+    displayAnchorPoints: 1
+    displayControlPoints: 1
+    bezierHandleScale: 0.4
+    globalDisplaySettingsFoldout: 1
+    keepConstantHandleSize: 1
+    showNormalsInVertexMode: 0
+    showBezierPathInVertexMode: 0
+    showDisplayOptions: 1
+    showPathOptions: 1
+    showVertexPathDisplayOptions: 0
+    showVertexPathOptions: 1
+    showNormals: 1
+    showNormalsHelpInfo: 0
+    tabIndex: 0
+  initialized: 1
