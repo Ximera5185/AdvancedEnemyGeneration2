@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.1795085, g: 0.22476798, b: 0.30638427, a: 1}
+  m_IndirectSpecularColor: {r: 0.44555092, g: 0.49522883, b: 0.5741298, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3031,8 +3031,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Color: {r: 0.735849, g: 0.52378714, b: 0.24644002, a: 1}
+  m_Intensity: 0.57
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -3071,10 +3071,10 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
+  m_BounceIntensity: 0.34
   m_ColorTemperature: 4172
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -3109,17 +3109,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Version: 3
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_RenderingLayers: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_ShadowRenderingLayers: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
-  m_SoftShadowQuality: 0
 --- !u!1001 &708594942
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5492,6 +5481,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: -9
       objectReference: {fileID: 0}
+    - target: {fileID: 322598306846886084, guid: d21d327d1a105ea48b5e70e66f170c07, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -1296484934501812861, guid: e3633461a40dbc24fa7a09f1a2ccebd6, type: 3}
     - target: {fileID: 586996344674374354, guid: d21d327d1a105ea48b5e70e66f170c07, type: 3}
       propertyPath: m_Materials.Array.data[3]
       value: 
@@ -5592,6 +5585,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[3]
       value: 
       objectReference: {fileID: 2100000, guid: cb121422a4697cd4584acfafb7cf5b77, type: 2}
+    - target: {fileID: 8157402627485770351, guid: d21d327d1a105ea48b5e70e66f170c07, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -1296484934501812861, guid: e3633461a40dbc24fa7a09f1a2ccebd6, type: 3}
+    - target: {fileID: 9061088206719335852, guid: d21d327d1a105ea48b5e70e66f170c07, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -1296484934501812861, guid: e3633461a40dbc24fa7a09f1a2ccebd6, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
